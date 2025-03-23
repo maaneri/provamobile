@@ -31,15 +31,15 @@ public class Exercicio01 extends AppCompatActivity {
 
             //Verificando se o valor é vazio
             if (input.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite sua idade!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite aqui sua idade", Toast.LENGTH_SHORT).show();
             }
 
             //Verificando se o valor é maior ou menor de idade
             if (Integer.parseInt(input) >= 18){
-                Toast.makeText(getApplicationContext(), "Você é maior de idade!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Validado, você é maior de idade", Toast.LENGTH_SHORT).show();
             }
             else{
-                Toast.makeText(getApplicationContext(), "Você é menor de idade!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Validado, você é menor de idade", Toast.LENGTH_SHORT).show();
             }
         });
 
