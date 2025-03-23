@@ -33,7 +33,7 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
@@ -48,7 +48,7 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
@@ -63,7 +63,7 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
@@ -78,7 +78,7 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
