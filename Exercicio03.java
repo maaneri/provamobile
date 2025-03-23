@@ -50,20 +50,20 @@ public class Exercicio03 extends AppCompatActivity {
                     telefone.getText().toString().trim().isEmpty() ||
                     email.getText().toString().trim().isEmpty()) {
 
-                Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show();
             }
             else if (radioGroup.getCheckedRadioButtonId() == -1) {
-                Toast.makeText(this, "Selecione um tamanho!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Selecione um tamanho", Toast.LENGTH_SHORT).show();
             }
             else if (!checkRed.isChecked() && !checkOrange.isChecked() &&
                     !checkYellow.isChecked() && !checkGreen.isChecked() &&
                     !checkBlue.isChecked() && !checkIndigo.isChecked() &&
                     !checkViolet.isChecked()) {
 
-                Toast.makeText(this, "Selecione pelo menos uma cor!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Selecione pelo menos uma cor", Toast.LENGTH_SHORT).show();
             }
             else {
-                Toast.makeText(this, "Dados enviados com sucesso!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Dados enviados com sucesso", Toast.LENGTH_SHORT).show();
             }
 
         });
