@@ -33,14 +33,14 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
             int num2 = Integer.parseInt(input2);
             int result = num1 + num2;
 
-            Toast.makeText(getApplicationContext(), "Resultado: " + result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "O Resultado: " + result, Toast.LENGTH_SHORT).show();
         });
 
         btnMenos.setOnClickListener(v -> {
@@ -48,14 +48,14 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
             int num2 = Integer.parseInt(input2);
             int result = num1 - num2;
 
-            Toast.makeText(getApplicationContext(), "Resultado: " + result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "O Resultado: " + result, Toast.LENGTH_SHORT).show();
         });
 
         btnDiv.setOnClickListener(v -> {
@@ -63,14 +63,14 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
             int num2 = Integer.parseInt(input2);
             int result = num1 / num2;
 
-            Toast.makeText(getApplicationContext(), "Resultado: " + result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "O Resultado: " + result, Toast.LENGTH_SHORT).show();
         });
 
         btnMulti.setOnClickListener(v -> {
@@ -78,14 +78,14 @@ public class Exercicio02 extends AppCompatActivity {
             String input2 = editTextNumber2.getText().toString();
 
             if (input1.isEmpty() || input2.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite dois números!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Digite dois números", Toast.LENGTH_SHORT).show();
             }
 
             int num1 = Integer.parseInt(input1);
             int num2 = Integer.parseInt(input2);
             int result = num1 * num2;
 
-            Toast.makeText(getApplicationContext(), "Resultado: " + result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "O Resultado: " + result, Toast.LENGTH_SHORT).show();
         });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
