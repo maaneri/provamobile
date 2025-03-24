@@ -45,7 +45,7 @@ public class Aula03Activity extends AppCompatActivity {
 
         Button buttonEviar = findViewById(R.id.buttonEnviar);
         buttonEviar.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), "Botão pressionado!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "O Botão está sendo pressionado", Toast.LENGTH_SHORT).show();
         });
 
         ImageView imageViewLogo = findViewById(R.id.imageViewLogo);
@@ -54,10 +54,10 @@ public class Aula03Activity extends AppCompatActivity {
         CheckBox checkBox = findViewById(R.id.checkBox);
         checkBox.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                Toast.makeText(getApplicationContext(), "Opção selecionada!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Opção selecionada", Toast.LENGTH_SHORT).show();
             }
             else {
-                Toast.makeText(getApplicationContext(), "Opção desmarcada!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Opção desmarcada", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -81,7 +81,7 @@ public class Aula03Activity extends AppCompatActivity {
                     }
                 }
                 if (selecionados.toString().equals("Selecionado: ")) {
-                    selecionados = new StringBuilder("Nenhuma opção selecionada!");
+                    selecionados = new StringBuilder("Nenhuma opção selecionada");
                 }
                 else {
                     selecionados.setLength(selecionados.length() - 2);
