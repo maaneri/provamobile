@@ -37,7 +37,7 @@ public class Exercicio04 extends AppCompatActivity {
                 String nome = name.getText().toString().trim();
 
                 if (nome.isEmpty()) {
-                    name.setError("Digite um nome!");
+                    name.setError("Digite um nome");
                 }
 
                 for (char letra : nome.toCharArray()) {
